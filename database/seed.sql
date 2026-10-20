@@ -1,0 +1,11 @@
+USE restro;
+INSERT INTO roles(name) VALUES('Admin'),('Manager'),('Cashier'),('Waiter'),('Chef');
+INSERT INTO departments(name) VALUES('Kitchen'),('Service'),('Billing');
+INSERT INTO job_types(name) VALUES('Full time'),('Part time');
+INSERT INTO table_places(name) VALUES('Ground floor'),('Terrace');
+INSERT INTO tables(name,place_id,capacity) VALUES('T1',1,4),('T2',1,4),('T3',1,6),('T4',2,2);
+INSERT INTO categories(name) VALUES('Starters'),('Main course'),('Drinks');
+INSERT INTO items(name,category_id,base_price,is_veg) VALUES('Paneer Tikka',1,220,1),('Butter Chicken',2,340,0),('Masala Chai',3,40,1);
+INSERT INTO item_variations(item_id,name,price) VALUES(1,'Half',130),(1,'Full',220),(2,'Half',200),(2,'Full',340);
+INSERT INTO item_addons(item_id,name,price) VALUES(1,'Extra mint chutney',15),(2,'Extra gravy',40);
+INSERT INTO settings(setting_key,setting_value) VALUES('restaurant_name','My Restaurant'),('address','Mumbai'),('tax_percent','5'),('bill_footer','Thank you, visit again!');

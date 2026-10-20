@@ -1,0 +1,10 @@
+const m=require('../models/crud'),db=require('../config/db');
+const ok=(req,res)=>m.T[req.params.table]?true:(res.status(404).json({error:'Unknown table'}),false);
+exports.list=async(q,r)=>ok(q,r)&&r.json(await m.list(q.params.table));
+exports.create=async(q,r)=>ok(q,r)&&r.json({id:await m.create(q.params.table,q.body)});
+exports.update=async(q,r)=>{if(ok(q,r)){await m.update(q.params.table,q.params.id,q.body);r.json({ok:true});}};
+exports.remove=async(q,r)=>{if(ok(q,r)){await m.remove(q.params.table,q.params.id);r.json({ok:true});}};
+exports.menu=async(q,r)=>{const[items]=await db.query('SELECT * FROM items WHERE available=1');const[v]=await db.query('SELECT * FROM item_variations');const[a]=await db.query('SELECT * FROM item_addons');
+ r.json(items.map(i=>({...i,variations:v.filter(x=>x.item_id===i.id),addons:a.filter(x=>x.item_id===i.id)})));};
+exports.getSettings=async(q,r)=>{const[s]=await db.query('SELECT * FROM settings');r.json(Object.fromEntries(s.map(x=>[x.setting_key,x.setting_value])));};
+exports.saveSettings=async(q,r)=>{for(const[k,v]of Object.entries(q.body))await db.query('INSERT INTO settings(setting_key,setting_value) VALUES(?,?) ON DUPLICATE KEY UPDATE setting_value=?',[k,v,v]);r.json({ok:true});};

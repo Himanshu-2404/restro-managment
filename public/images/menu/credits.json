@@ -1,0 +1,845 @@
+{
+  "source": "Wikimedia Commons",
+  "photos": [
+    {
+      "item": "Paneer Tikka",
+      "sku": "ST001",
+      "image": "/images/menu/st001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Malai_Paneer_Tikka,_PK_007.jpg",
+      "author": "PallaviKhale",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Butter Chicken",
+      "sku": null,
+      "image": "/images/menu/item-2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Butter_chicken,_chickpeas,_and_rice_in_a_takeout_container.jpg",
+      "author": "Ser Amantio di Nicolao",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ser_Amantio_di_Nicolao",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Masala Chai",
+      "sku": "DR001",
+      "image": "/images/menu/dr001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Masala_Chai.jpg",
+      "author": "Ganesh Mohan T",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ganesh_Mohan_T",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Pizza",
+      "sku": null,
+      "image": "/images/menu/item-4.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vegetarian_Pizza.jpg",
+      "author": "Petar Milošević",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:PetarM",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Spring Roll",
+      "sku": "ST002",
+      "image": "/images/menu/st002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_spring_roll.jpg",
+      "author": "YKanchan07",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Hara Bhara Kebab",
+      "sku": "ST003",
+      "image": "/images/menu/st003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hara_Bhara_kebab_with_cheese.jpg",
+      "author": "SayaniNandy",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:SayaniNandy?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Crispy Corn",
+      "sku": "ST004",
+      "image": "/images/menu/st004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crispy_chilli_baby_corn.....jpg",
+      "author": "Dikshita Bairagi",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Manchurian Dry",
+      "sku": "ST005",
+      "image": "/images/menu/st005.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg-dry-manchurian,_cuttack_-_odisha.jpg",
+      "author": "Saumendra",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Gobi 65",
+      "sku": "ST006",
+      "image": "/images/menu/st006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gobi_65_(cauliflower_fry).jpg",
+      "author": "Alvinjesusyouth",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Honey Chilli Potato",
+      "sku": "ST007",
+      "image": "/images/menu/st007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Honey_chilli_potato_2.jpg",
+      "author": "Gannu03",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gannu03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Cheese Garlic Bread",
+      "sku": "ST008",
+      "image": "/images/menu/st008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Korean_cream_cheese_garlic_bread.jpg",
+      "author": "Asecretfanfare",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Asecretfanfare",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Tikka",
+      "sku": "ST009",
+      "image": "/images/menu/st009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_in_Araku_Valley,_Andhra_Pradesh_01.jpg",
+      "author": "Satdeep Gill",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Satdeep_Gill",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken 65",
+      "sku": "ST010",
+      "image": "/images/menu/st010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken_65_(Dish).jpg",
+      "author": "Amiyashrivastava",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Amiyashrivastava",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "item": "Chicken Lollipop",
+      "sku": "ST011",
+      "image": "/images/menu/st011.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken_lollipop_in_Goa.jpg",
+      "author": "Peiling Tan from Singapore, Singapore",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Fish Fingers",
+      "sku": "ST012",
+      "image": "/images/menu/st012.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fish_Fingers_-_RYBKA_2024-01-25.jpg",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Tandoori Chicken Wings",
+      "sku": "ST013",
+      "image": "/images/menu/st013.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mixed_Indian_Starter_(3205808285).jpg",
+      "author": "David Pursehouse from Kawasaki, Japan",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Veg Soup (Tomato)",
+      "sku": "ST014",
+      "image": "/images/menu/st014.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Creamy_Tomato_Soup,_Kalinga_Veg_Gourmet_Restaurant,_Pune,_Maharashtra.jpg",
+      "author": "Sharvarism",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sharvarism",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Hot and Sour Soup",
+      "sku": "ST015",
+      "image": "/images/menu/st015.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hot-and-Sour-Soup-Bowl.jpg",
+      "author": "Evan-Amos",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Evan-Amos",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    {
+      "item": "Veg Thali",
+      "sku": "ML001",
+      "image": "/images/menu/ml001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_Thali_Meals.jpg",
+      "author": "Vis M",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Vis_M",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Gujarati Thali",
+      "sku": "ML002",
+      "image": "/images/menu/ml002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Authentic_gujarati_thali.jpg",
+      "author": "Dvivektx",
+      "authorUrl": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "item": "Paneer Butter Masala Combo",
+      "sku": "ML003",
+      "image": "/images/menu/ml003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Paneer_Butter_Masala_Combo_(45995013941).jpg",
+      "author": "Gaurav Nemade",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Dal Makhani with Rice",
+      "sku": "ML004",
+      "image": "/images/menu/ml004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dal_Makhani_with_rice_and_roti_for_dinner._-mycookingadventures_-vegcookingadventures_(37921338591).jpg",
+      "author": "transcendancing",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Veg Biryani",
+      "sku": "ML005",
+      "image": "/images/menu/ml005.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_biryani.jpg",
+      "author": "Ramesh bethi",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ramesh_bethi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Biryani",
+      "sku": "ML006",
+      "image": "/images/menu/ml006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken-biryani-recipe.jpg",
+      "author": "Unknown authorUnknown author",
+      "authorUrl": null,
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Butter Chicken with Naan",
+      "sku": "ML007",
+      "image": "/images/menu/ml007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Butter_Chicken_with_Garlic_Naan.jpg",
+      "author": "Miscellaneous contributor",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Miscellaneous_contributor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chole Bhature",
+      "sku": "ML008",
+      "image": "/images/menu/ml008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chole_Bhature_6.jpg",
+      "author": "Gannu03",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gannu03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Rajma Chawal",
+      "sku": "ML009",
+      "image": "/images/menu/ml009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_meal_on_Lufthansa_flight.jpg",
+      "author": "Dharmadhyaksha",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dharmadhyaksha",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Kadhai Paneer with Roti",
+      "sku": "ML010",
+      "image": "/images/menu/ml010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kadhai_Paneer.JPG",
+      "author": "Nairdeepa",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Mutton Rogan Josh Meal",
+      "sku": "ML011",
+      "image": "/images/menu/ml011.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Biryani_Rice_with_Goat_Masala_and_Lamb_Rogan_Josh_-_Zam_Zam_(415375255).jpg",
+      "author": "Alpha from Melbourne, Australia",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Egg Curry Meal",
+      "sku": "ML012",
+      "image": "/images/menu/ml012.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Meal_with_Rice,_Roti_and_Scrambled_Egg_Curry.jpg",
+      "author": "Ranjithraj",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ranjithraj",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Fried Rice with Manchurian",
+      "sku": "ML013",
+      "image": "/images/menu/ml013.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_fried_rice_with_manchurian_made_by_me.jpg",
+      "author": "YKanchan07",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:YKanchan07?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Hakka Noodles Combo",
+      "sku": "ML014",
+      "image": "/images/menu/ml014.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hakka_noodles_combo-roadside_stall-Dacre%27s_lane-West_Bengal-01.jpg",
+      "author": "Shockv1",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shockv1?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Pav Bhaji Meal",
+      "sku": "ML015",
+      "image": "/images/menu/ml015.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Yummy_Cheese_Pav_Bhajji_and_Medu_Wada.jpg",
+      "author": "Wrunmay",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Burger",
+      "sku": "FF001",
+      "image": "/images/menu/ff001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:VEG_BURGER_AND_GARLIC_TOASTS.jpg",
+      "author": "Lillottama",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Lillottama",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Cheese Burger",
+      "sku": "FF002",
+      "image": "/images/menu/ff002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Triple_cheese_burger,_takeout_at_bex_burger,_kichijoji.jpg",
+      "author": "nakashi",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Chicken Burger",
+      "sku": "FF003",
+      "image": "/images/menu/ff003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken-burger-combo_(1).jpg",
+      "author": "Chikex",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Margherita Pizza",
+      "sku": "FF004",
+      "image": "/images/menu/ff004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Margherita_pizza_on_plate.jpg",
+      "author": "Shisma",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shisma",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "item": "Farmhouse Pizza",
+      "sku": "FF005",
+      "image": "/images/menu/ff005.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Farmhouse_Pizza-Domino%27s-Ahmedabad-Gujarat-202013-1.jpg",
+      "author": "AakritiGupta2",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Tikka Pizza",
+      "sku": "FF006",
+      "image": "/images/menu/ff006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_at_a_restaurant.jpg",
+      "author": "Lucrucia98",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "French Fries",
+      "sku": "FF007",
+      "image": "/images/menu/ff007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:McDonald%27s_French_Fries,_Canada,_2026-04-04.jpg",
+      "author": "Chris Woodrich",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Crisco_1492",
+      "license": "Public domain",
+      "licenseUrl": null
+    },
+    {
+      "item": "Peri Peri Fries",
+      "sku": "FF008",
+      "image": "/images/menu/ff008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fries_(Peri_Peri)_2026.jpg",
+      "author": "Gpkp",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gpkp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Sandwich",
+      "sku": "FF009",
+      "image": "/images/menu/ff009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_Sandwich_2.jpg",
+      "author": "Ganesh Mohan T",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ganesh_Mohan_T",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Cheese Grilled Sandwich",
+      "sku": "FF010",
+      "image": "/images/menu/ff010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Grilled_cheese_sandwich.jpg",
+      "author": "Maggie Hoffman",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Paneer Wrap",
+      "sku": "FF011",
+      "image": "/images/menu/ff011.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Paneer_kathi_roll_homemade.jpg",
+      "author": "Shafana jasmine",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Wrap",
+      "sku": "FF012",
+      "image": "/images/menu/ff012.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Handmade_Chicken_Shawarma_Wrap_-_Lavash.jpg",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "White Sauce Pasta",
+      "sku": "FF013",
+      "image": "/images/menu/ff013.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:White_sauce_pasta.jpg",
+      "author": "Sanika Dhumal",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Red Sauce Pasta",
+      "sku": "FF014",
+      "image": "/images/menu/ff014.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_plate_of_red_sauce_pasta.jpg",
+      "author": "Rocky Masum \n\n\n\n\n\n\nThis work was made by Masum-al-Hasan Rocky and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit Masum-al-Hasan Rocky as author and follow the terms of the chosen license. If you use this work outside of the Wikimedia projects, I would very much like to get a note from you. Thanks!",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:RockyMasum",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Veg Momos (6 pcs)",
+      "sku": "FF015",
+      "image": "/images/menu/ff015.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Veg_Momo_1.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gaurav_Dhwaj_Khadka",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Momos (6 pcs)",
+      "sku": "FF016",
+      "image": "/images/menu/ff016.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Fast_Food_Chicken.jpg",
+      "author": "Pdpics",
+      "authorUrl": null,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "item": "Vada Pav",
+      "sku": "FF017",
+      "image": "/images/menu/ff017.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crunchy_Crispy_Vada_pav.jpg",
+      "author": "Sharvarism",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sharvarism",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chicken Nuggets (6 pcs)",
+      "sku": "FF018",
+      "image": "/images/menu/ff018.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Fast_Food_Chicken.jpg",
+      "author": "Pdpics",
+      "authorUrl": null,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "item": "Filter Coffee",
+      "sku": "DR002",
+      "image": "/images/menu/dr002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_filter_coffee_in_Dabarah.jpg",
+      "author": "",
+      "authorUrl": null,
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "item": "Cold Coffee",
+      "sku": "DR003",
+      "image": "/images/menu/dr003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cold_Coffee_2.jpg",
+      "author": "Gannu03",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Gannu03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Fresh Lime Soda",
+      "sku": "DR004",
+      "image": "/images/menu/dr004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fresh_Lime.JPG",
+      "author": "Siddhantsahni28",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Siddhantsahni28?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Mint Mojito",
+      "sku": "DR005",
+      "image": "/images/menu/dr005.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mojito_with_mint_and_cucumber_in_Russia.jpg",
+      "author": "Spacekid",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Spacekid",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Blue Lagoon",
+      "sku": "DR006",
+      "image": "/images/menu/dr006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cocktail_Blue_Lagoon_at_the_pitch_bar.jpg",
+      "author": "Petrdolomicky",
+      "authorUrl": null,
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Virgin Mary",
+      "sku": "DR007",
+      "image": "/images/menu/dr007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bloody_Mary_Coctail_with_celery_stalk_-_Evan_Swigart.jpg",
+      "author": "Evan Swigart from Chicago, USA",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Mango Lassi",
+      "sku": "DR008",
+      "image": "/images/menu/dr008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mango_Lassi_and_Butter_Milk_-_Vel_South_Indian_Kitchen_%2B_Bar.jpg",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Sweet Lassi",
+      "sku": "DR009",
+      "image": "/images/menu/dr009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lassi_(Sweet).JPG",
+      "author": "Nivasdurai",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nivasdurai?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Masala Chaas",
+      "sku": "DR010",
+      "image": "/images/menu/dr010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Masala_chaas.JPG",
+      "author": "Nithyasrm",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Nithyasrm?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chocolate Milkshake",
+      "sku": "DR011",
+      "image": "/images/menu/dr011.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chocolate_milkshake_..._%F0%9F%98%8B.jpg",
+      "author": "Bernard DUPONT",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Strawberry Milkshake",
+      "sku": "DR012",
+      "image": "/images/menu/dr012.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Strawberry_and_banana_milkshake,_May_2005.jpg",
+      "author": "Dicemanic",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Oreo Shake",
+      "sku": "DR013",
+      "image": "/images/menu/dr013.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Burger_King_Pumpkin_Spice_Oreo_Shake_(22940227122).jpg",
+      "author": "theimpulsivebuy",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Fresh Orange Juice",
+      "sku": "DR014",
+      "image": "/images/menu/dr014.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Woman_making_fresh_orange_juice_in_the_kitchen.jpg",
+      "author": "Shixart1985",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shixart1985",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Watermelon Juice",
+      "sku": "DR015",
+      "image": "/images/menu/dr015.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Watermelon_Juice_1.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Soft Drink (300ml)",
+      "sku": "DR016",
+      "image": "/images/menu/dr016.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Soft_drink_shelf_2.jpg",
+      "author": "Wilfredor",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Wilfredor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Mineral Water (1L)",
+      "sku": "DR017",
+      "image": "/images/menu/dr017.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:66004_Dollands_Moor_to_Wembley_6B20_Evian_and_Volvic_eau_minerale_Danone_bottled_mineral_water_from_France_for_Daventry_(18086121804).jpg",
+      "author": "Train Photos",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Iced Tea (Lemon)",
+      "sku": "DR018",
+      "image": "/images/menu/dr018.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Iced_lemon_tea_-_Rawlab_Juice_%26_Tea.jpg",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Gulab Jamun (2 pcs)",
+      "sku": "DS001",
+      "image": "/images/menu/ds001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gulab_Jamun_(Indian_dessert).jpg",
+      "author": "SwatiGupta1986",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Rasmalai (2 pcs)",
+      "sku": "DS002",
+      "image": "/images/menu/ds002.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rasmalai-_Indian_dessert.JPG",
+      "author": "Rutvi Mistry",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Gajar Halwa",
+      "sku": "DS003",
+      "image": "/images/menu/ds003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Delicious_Gajar_Ka_Halwa.jpg",
+      "author": "Sharvarism",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Sharvarism",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Moong Dal Halwa",
+      "sku": "DS004",
+      "image": "/images/menu/ds004.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moong_Dal_Halwa_and_Mysore_Pak_Sweet_Dish_Desert.jpg",
+      "author": "Dev Jadiya",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Dev_Jadiya",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Jalebi with Rabdi",
+      "sku": "DS005",
+      "image": "/images/menu/ds005.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rabdi_Jalebi.jpg",
+      "author": "Arzina Hossain",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Kulfi (Malai)",
+      "sku": "DS006",
+      "image": "/images/menu/ds006.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kulfi_malai_ice-cream.jpg",
+      "author": "Rajeeb (Marajozkee)",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Marajozkee",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Falooda Kulfi",
+      "sku": "DS007",
+      "image": "/images/menu/ds007.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Falooda_kulfi_from_India.jpg",
+      "author": "Aashita Kawatra",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Aash03?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chocolate Brownie",
+      "sku": "DS008",
+      "image": "/images/menu/ds008.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chocolate-brownie-hachatw.jpg",
+      "author": "JefferySAC",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Brownie with Ice Cream",
+      "sku": "DS009",
+      "image": "/images/menu/ds009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Brownie_cake_with_ice_cream.jpg",
+      "author": "Gayathrijagan",
+      "authorUrl": null,
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "item": "Sizzling Brownie",
+      "sku": "DS010",
+      "image": "/images/menu/ds010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sizzling_brownie_(2065099914).jpg",
+      "author": "Sankarshan Mukhopadhyay from Pune, India",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Vanilla Ice Cream (2 scoops)",
+      "sku": "DS011",
+      "image": "/images/menu/ds011.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:DFC_1678_Warm_vanilla_cr%C3%A8me_br%C3%BBl%C3%A9e_with_a_scoop_of_vanilla_ice_cream_diced_caramelized_bananas_and_a_drizzle_of_chocolate_-_a_sweet_trio_on_a_white_platter.jpg",
+      "author": "PattayaPatrol",
+      "authorUrl": null,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Chocolate Sundae",
+      "sku": "DS012",
+      "image": "/images/menu/ds012.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rose,_Chocolate_Sundae,_%E3%83%90%E3%83%A9,_%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88_%E3%82%B5%E3%83%B3%E3%83%87%E3%83%BC,_(23398707213).jpg",
+      "author": "T.Kiya from Japan",
+      "authorUrl": null,
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "item": "Cheesecake Slice",
+      "sku": "DS013",
+      "image": "/images/menu/ds013.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cheesecake_with_slice_cut_out.jpg",
+      "author": "Martin van Dam",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Tiramisu Cup",
+      "sku": "DS014",
+      "image": "/images/menu/ds014.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Homemade_Tiramisu_in_a_cup_(Vegan,_KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT)_-_52774948445.jpg",
+      "author": "Ewelina Podrez-Siama",
+      "authorUrl": null,
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "item": "Fruit Custard",
+      "sku": "DS015",
+      "image": "/images/menu/ds015.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fruit_Custard_a_Navrati_special_dish_-_Gujarat_-_SHAILI_010.jpg",
+      "author": "Shaili Sharma",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Shaili22?action=edit&amp;redlink=1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "item": "Gulab Jamun with Ice Cream",
+      "sku": "DS016",
+      "image": "/images/menu/ds016.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gulab_Jamun_with_Ice_Cream_-_Worthing_Indian_Cafe_%26_Bar_2026-04-27.jpg",
+      "author": "Andy Li",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Onthewings",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+  ]
+}

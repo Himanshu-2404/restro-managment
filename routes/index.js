@@ -1,0 +1,12 @@
+const r=require('express').Router(),{auth,allow}=require('../middleware/auth');
+const a=require('../controllers/authController'),o=require('../controllers/orderController'),m=require('../controllers/masterController');
+r.post('/auth/signup',a.signup);r.post('/auth/login',a.login);
+r.use(auth);
+r.get('/menu',m.menu);
+r.get('/settings',m.getSettings);r.put('/settings',allow('Admin','Manager'),m.saveSettings);
+r.get('/customers/lookup',o.lookupCustomer);
+r.post('/orders',o.create);r.get('/orders',o.list);r.patch('/orders/:id/status',o.setStatus);
+r.post('/orders/:id/pay',allow('Admin','Manager','Cashier'),o.pay);r.get('/orders/:id/bill',o.bill);
+r.get('/master/:table',m.list);
+r.post('/master/:table',allow('Admin','Manager'),m.create);r.put('/master/:table/:id',allow('Admin','Manager'),m.update);r.delete('/master/:table/:id',allow('Admin','Manager'),m.remove);
+module.exports=r;
