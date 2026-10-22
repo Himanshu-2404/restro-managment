@@ -58,6 +58,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .icon-button i { position: absolute; top: 2px; right: 2px; width: 6px; height: 6px; border: 1px solid white; border-radius: 50%; background: #e98d58; }
 .mobile-menu { display: none; }
 .page-content { max-width: 1600px; margin: 0 auto; padding: 31px 34px 40px; }
+.page-content.pos-order-screen { display: flex; height: calc(100vh - 66px); min-height: 0; flex-direction: column; overflow: hidden; padding-bottom: 20px; }
 .page-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 25px; }
 .eyebrow { color: #8b9a86; font-size: 9px; font-weight: 700; letter-spacing: 1.45px; }
 .page-heading h1 { margin: 7px 0 4px; color: #242a24; font: 800 25px 'Segoe UI', Arial, sans-serif; letter-spacing: -.75px; }
@@ -90,7 +91,12 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .choose-table-button { width: 100%; justify-content: space-between; }
 .refresh-label { display: flex; align-items: center; gap: 9px; padding: 9px 13px; border: 1px solid #e7ece4; border-radius: 20px; background: white; color: #667466; font-size: 10px; }
 .pos-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(310px, 355px); align-items: start; gap: 20px; }
+.pos-order-screen > .page-heading { flex: 0 0 auto; }
+.pos-order-screen > .pos-layout { min-height: 0; flex: 1 1 auto; grid-template-rows: minmax(0, 1fr); align-items: stretch; }
 .menu-panel { min-width: 0; }
+.pos-order-screen .menu-panel { display: flex; min-height: 0; flex-direction: column; }
+.pos-order-screen .menu-toolbar, .pos-order-screen .category-list { flex: 0 0 auto; }
+.pos-order-screen .category-list { max-width: 100%; }
 .menu-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 17px; }
 .menu-toolbar h2, .order-panel h2 { margin: 0; font: 700 16px 'Segoe UI', Arial, sans-serif; }
 .menu-toolbar p { margin: 4px 0 0; color: var(--muted); font-size: 11px; }
@@ -101,6 +107,7 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
 .category-chip { flex: 0 0 auto; border: 1px solid #e8ebe7; border-radius: 20px; padding: 7px 13px; background: white; color: #687068; font-size: 10px; }
 .category-chip.active { border-color: var(--green); background: var(--green); color: #fff; }
 .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.pos-order-screen .product-grid { min-height: 0; flex: 1 1 auto; overflow-y: auto; align-content: start; overscroll-behavior: contain; padding: 0 5px 10px 0; }
 .product-card { position: relative; display: flex; min-width: 0; flex-direction: column; align-items: flex-start; border: 1px solid #e9ece7; border-radius: 11px; padding: 10px; background: #fff; text-align: left; box-shadow: 0 2px 8px rgba(30,45,33,.02); transition: transform .16s, box-shadow .16s, border .16s; }
 .product-card:hover { transform: translateY(-2px); border-color: #c9d8c3; box-shadow: var(--shadow); }
 .product-art { display: grid; width: 100%; height: 105px; place-items: center; overflow: hidden; margin-bottom: 12px; border-radius: 8px; background: #f4f0e7; font-size: 37px; }
@@ -324,6 +331,8 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
   .page-content { padding: 24px 17px; }
   .pos-layout { grid-template-columns: minmax(0, 1fr) minmax(280px, 300px); gap: 12px; }
   .order-panel { position: static; width: auto; overflow: visible; }
+  .pos-order-screen { height: calc(100vh - 58px); }
+  .pos-order-screen .order-panel { min-height: 0; overflow-y: auto; }
   .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .product-art { height: 95px; }
   .auth-layout { grid-template-columns: 1fr; }
@@ -338,6 +347,9 @@ button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px s
   .pos-layout { grid-template-columns: minmax(0, 1fr); }
   .order-panel { display: block; }
   .cart-list { max-height: min(30vh, 245px); }
+  .pos-order-screen .pos-layout { grid-template-rows: minmax(150px, 1fr) minmax(200px, 38vh); }
+  .pos-order-screen .order-panel { display: block; }
+  .pos-order-screen .cart-list { min-height: 80px; max-height: min(15vh, 120px); }
 }
 @media (max-width: 900px) and (min-width: 791px) {
   .pos-layout { grid-template-columns: minmax(0, 1fr) 310px; gap: 12px; }

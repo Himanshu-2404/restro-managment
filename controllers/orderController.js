@@ -8,24 +8,27 @@ exports.lookupCustomer=async(q,r)=>{
 };
 exports.create=async(q,r)=>{
  const{order_type,table_id,customer,items,notes}=q.body;
- const phone=normalizePhone(customer?.phone);
+ const phone=customer ? normalizePhone(customer.phone) : '';
  const name=String(customer?.name||'').trim();
  const address=String(customer?.address||'').trim();
  const discount=Number(q.body.discount||0);
  const roundOff=Number(q.body.round_off||0);
  if(!items?.length)return r.status(400).json({error:'Cart is empty'});
- if(phone.length<7||phone.length>15)return r.status(400).json({error:'Enter a valid mobile number with 7 to 15 digits.'});
- if(!name)return r.status(400).json({error:'Customer name is required.'});
+ if(customer&&(phone.length<7||phone.length>15))return r.status(400).json({error:'Enter a valid mobile number with 7 to 15 digits.'});
+ if(customer&&!name)return r.status(400).json({error:'Customer name is required.'});
  if(!Number.isFinite(discount)||discount<0||!Number.isFinite(roundOff))return r.status(400).json({error:'Enter a valid discount and round-off amount.'});
  const c=await db.getConnection();
  try{
   await c.beginTransaction();
   const[[tx]]=await c.query("SELECT setting_value v FROM settings WHERE setting_key='tax_percent'");
-  const[customerResult]=await c.query(
-   'INSERT INTO customers(name,phone,address) VALUES(?,?,?) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id),name=VALUES(name),address=VALUES(address)',
-   [name,phone,address||null]
-  );
-  const cid=customerResult.insertId;
+  let cid=null;
+  if(customer){
+   const[customerResult]=await c.query(
+    'INSERT INTO customers(name,phone,address) VALUES(?,?,?) ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id),name=VALUES(name),address=VALUES(address)',
+    [name,phone,address||null]
+   );
+   cid=customerResult.insertId;
+  }
   const[o]=await c.query('INSERT INTO orders(order_type,table_id,customer_id,employee_id,notes) VALUES(?,?,?,?,?)',[order_type,table_id||null,cid,q.user.id,notes]);
   let sub=0;
   for(const it of items){

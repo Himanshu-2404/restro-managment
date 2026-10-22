@@ -253,6 +253,7 @@
         state.selectedTableId = null;
         state.posStarted = false;
       }
+      target.classList.toggle('pos-order-screen', state.posStarted && !state.posCheckout);
       if (!state.posStarted) {
         const groups = places.map(place => ({
           ...place,
@@ -313,7 +314,13 @@
       target.innerHTML = state.posCheckout ? `
         ${pageHeading('POINT OF SALE', 'Checkout', 'Confirm the customer and payment details.') }
         <section class="checkout-screen">
-          <div class="checkout-customer"><span class="eyebrow">CUSTOMER</span><b>${escapeHtml(state.posCustomer.name)}</b><span>${escapeHtml(state.posCustomer.phone)}</span>${selectedTable ? `<small>${escapeHtml(selectedTable.name)}</small>` : ''}</div>
+          <div class="customer-fields checkout-customer-fields">
+            <label class="field-label">Customer name<input id="customer-name" name="customer-name" placeholder="Customer name" autocomplete="name" value="${escapeHtml(state.posCustomer.name)}" required></label>
+            <label class="field-label">Mobile number<input id="customer-phone" name="customer-phone" placeholder="Mobile number" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" value="${escapeHtml(state.posCustomer.phone)}" required aria-describedby="customer-match-status"></label>
+            <small class="customer-match-status" id="customer-match-status" aria-live="polite"></small>
+            ${orderType === 'delivery' ? `<label class="field-label">Delivery address<input id="customer-address" placeholder="Street, area, city" autocomplete="street-address" value="${escapeHtml(state.posCustomer.address)}"></label>` : ''}
+            ${selectedTable ? `<small>${escapeHtml(selectedTable.name)}</small>` : ''}
+          </div>
           <div class="checkout-total"><span>Total amount</span><b id="checkout-total">${money(checkoutTotal)}</b></div>
           <div class="checkout-adjustments">
             <label class="field-label">Discount<input id="checkout-discount" type="number" min="0" max="${preDiscountTotal.toFixed(2)}" step="0.01" value="${escapeHtml(state.posDiscount)}"></label>
@@ -347,6 +354,27 @@
           </aside>
         </div>`;
       if (state.posCheckout) {
+        const nameField = $('#customer-name', target);
+        const phoneField = $('#customer-phone', target);
+        nameField.addEventListener('input', event => {
+          state.posCustomer.name = event.currentTarget.value;
+        });
+        phoneField.addEventListener('input', event => {
+          const phone = event.currentTarget.value;
+          state.customerLookupRequest += 1;
+          if (state.posCustomer.phone !== phone && state.posCustomer.customerId) {
+            state.posCustomer.name = '';
+            state.posCustomer.address = '';
+            state.posCustomer.customerId = null;
+            nameField.value = '';
+            $('#customer-match-status', target).textContent = '';
+          }
+          state.posCustomer.phone = phone;
+        });
+        $('#customer-address', target)?.addEventListener('input', event => {
+          state.posCustomer.address = event.currentTarget.value;
+        });
+        phoneField.addEventListener('blur', () => lookupCustomer(false));
         const updateCheckoutTotal = () => {
           const discount = Number($('#checkout-discount', target).value || 0);
           const roundOff = Number($('#checkout-round-off', target).value || 0);
@@ -457,32 +485,7 @@
               : `<div class="selected-table"><span class="table-choice-icon">▤</span><span><small>DINING TABLE</small><b>${escapeHtml(selectedTable.name)}</b></span><button class="subtle-button" id="choose-table" type="button">Change</button></div>`
             : `<button class="button button-secondary choose-table-button" id="choose-table" type="button">Choose a table <span>→</span></button>`
           : '';
-        $('#order-details', target).innerHTML = `${tableDetails}${existingOrder
-          ? `<div class="customer-fields"><label class="field-label">Customer name<input value="${escapeHtml(existingOrder.customer_name || '')}" disabled></label><label class="field-label">Mobile number<input value="${escapeHtml(existingOrder.customer_phone || '')}" disabled></label></div>`
-          : `<div class="customer-fields"><label class="field-label">Customer name<input id="customer-name" name="customer-name" placeholder="Customer name" autocomplete="name" value="${escapeHtml(state.posCustomer.name)}" required></label><label class="field-label">Mobile number<input id="customer-phone" name="customer-phone" placeholder="Mobile number" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" value="${escapeHtml(state.posCustomer.phone)}" required aria-describedby="customer-match-status"></label><small class="customer-match-status" id="customer-match-status" aria-live="polite"></small>${orderType === 'delivery' ? `<label class="field-label">Delivery address<input id="customer-address" placeholder="Street, area, city" autocomplete="street-address" value="${escapeHtml(state.posCustomer.address)}"></label>` : ''}</div>`}`;
-        if (!existingOrder) {
-          $('#customer-name', target).addEventListener('input', event => {
-            state.posCustomer.name = event.currentTarget.value;
-          });
-          $('#customer-phone', target).addEventListener('input', event => {
-            const phone = event.currentTarget.value;
-            state.customerLookupRequest += 1;
-            if (state.posCustomer.phone !== phone && state.posCustomer.customerId) {
-              state.posCustomer.name = '';
-              state.posCustomer.address = '';
-              state.posCustomer.customerId = null;
-              $('#customer-name', target).value = '';
-              $('#customer-match-status', target).textContent = '';
-            }
-            state.posCustomer.phone = phone;
-          });
-          $('#customer-address', target)?.addEventListener('input', event => {
-            state.posCustomer.address = event.currentTarget.value;
-          });
-          $('#customer-phone', target).addEventListener('blur', () => {
-            lookupCustomer(false);
-          });
-        }
+        $('#order-details', target).innerHTML = tableDetails;
         $('#choose-table', target)?.addEventListener('click', () => {
           state.selectedTableId = null;
           state.posOrderType = 'dine_in';
@@ -589,20 +592,12 @@
           return;
         }
         if (payNow && !state.posCheckout) {
-          const customer = await lookupCustomer(true);
-          if (!customer) return;
           state.posCheckout = true;
           render();
           return;
         }
-        const customer = state.posCheckout
-          ? { ...state.posCustomer }
-          : await lookupCustomer(true);
-        if (!customer) return;
-        if (!customer.name.trim()) {
-          showNotice('Enter the customer name to continue.', 'error');
-          return;
-        }
+        const customer = payNow ? await lookupCustomer(true) : null;
+        if (payNow && !customer) return;
         try {
           const order = await api('/orders', 'POST', {
             order_type: orderType,
@@ -623,6 +618,7 @@
             showNotice('Payment complete. The bill is ready to print.', 'success');
           } else {
             state.cart = [];
+            state.posCheckout = false;
             state.posCustomer = { name: '', phone: '', address: '', customerId: null };
             state.posDiscount = 0;
             state.posRoundOff = 0;
